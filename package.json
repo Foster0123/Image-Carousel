@@ -1,0 +1,16 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "A Carousel Slider Component",
+  "main": "vite.config.js",
+  "scripts": {
+    "serve": "vite --config vite.config.js --host"
+  },
+  "keywords": [],
+  "author": "Foss",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1",
+    "vite": "^3.2.4"
+  }
+}
