@@ -9,23 +9,34 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./scss/main.scss" />
-    <title>CAROUSEL</title>
-  </head>
-  <body>
-    <section class="slider">
-      <div class="slider__container">
-        <img class="img img-1" src="./img/bg-1.jpg" alt="BG-1" />
-        <img class="img img-2" src="./img/bg-2.jpg" alt="BG-2" />
-        <img class="img img-3" src="./img/bg-3.jpg" alt="BG-3" />
-        <img class="img img-4" src="./img/bg-4.jpg" alt="BG-4" />
+      />
+      <link rel="stylesheet" href="./scss/main.scss" />
+      <title>CAROUSEL</title>
+    </head>
+    <body>
+      <div class="slider">
+        <div class="slider__container">
+          <ul class="slider__images">
+            <li>
+              <img class="img img-1" src="./img/bg-1.jpg" alt="BG-1" />
+            </li>
+            <li>
+              <img class="img img-2" src="./img/bg-2.jpg" alt="BG-1" />
+            </li>
+            <li>
+              <img class="img img-3" src="./img/bg-3.jpg" alt="BG-1" />
+            </li>
+            <li>
+              <img class="img img-4" src="./img/bg-4.jpg" alt="BG-1" />
+            </li>
+          </ul>
+        </div>
+        <div class="btn__container">
+              <button>Prev</button>
+              <button>Next</button>
+        </div>
       </div>
-      <div class="btn__container">
-        <button>Prev</button>
-        <button>Next</button>
-      </div>
-    </section>
-    <script defer src="./js/main.js"></script>
-  </body>
-</html>
+      <h1>Foster Z</h1>
+      <script defer src="./js/main.js"></script>
+    </body>
+  </html>
