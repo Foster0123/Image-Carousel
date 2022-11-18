@@ -84,12 +84,26 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  transition: visibility, 300ms ease-in-out;
+  visibility: visible;
   h1 {
     position: absolute;
     top: 0;
     color: white;
     font-family:$tangerine;
     font-size: 2.5em;
+    font-weight: lighter;
+    margin-left: 15px;
+  }
+  p {
+    position: absolute;
+    top: 50px;
+    font-size: 2em;
+    line-height: 0.7;
+    font-family: $tangerine;
+    color: white;
+    margin-left: 15px;
+    word-break:unset;
   }
 }
 .img {
